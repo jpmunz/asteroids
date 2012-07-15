@@ -14,3 +14,19 @@
 .ship {
     stroke: #FFF;
 }
+
+.ship.invulnerable {
+    stroke: #AAA;
+}
+
+.particle {
+    stroke: #FFF;
+}
+
+.bullet {
+    stroke: #FFF;
+}
+
+.ship-debris {
+    stroke: #FFF;
+}

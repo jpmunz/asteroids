@@ -9,7 +9,7 @@ var SPACE = 32;
 // Ship Constants
 var SHIP_SIZE = 25;
 var SHIP_INERTIA = .2;
-var SHIP_ACCELERATION_RATE = 30 * (TICK_INTERVAL / 1000);
+var SHIP_ACCELERATION_RATE = 10 * (TICK_INTERVAL / 1000);
 var SHIP_ROTATIONAL_SPEED = 300 * (TICK_INTERVAL / 1000);
 var MAX_SHIP_SPEED = 200 * (TICK_INTERVAL / 1000);
 
@@ -27,8 +27,9 @@ var ASTEROID_MIN_POINTS_PER_QUADRANT = 3;
 var ASTEROID_MAX_POINTS_PER_QUADRANT = 6;
 
 var ASTEROID_LEVELS = {
-  1: {max: 200, min: 150, shards: 3, particles: 10 },
-  2: {max: 100, min: 50, shards: 0, particles: 4}
+  1: {max: 200, min: 150, shards: 2, particles: 8 },
+  2: {max: 100, min: 50, shards: 2, particles: 6},
+  3: {max: 30, min: 20, shards: 0, particles: 4}
 };
 
 var ASTEROID_MIN_CORNER_PERCENTAGE = 20;
